@@ -10,5 +10,8 @@ int main(){
 	int *p1 = i;
 	int *p2 = &i[0];
 	printf("%p %p\n", p1, p2);
+	p1++;
+	int j = *p1;
+	printf("%d\n", j);
 	return 0; 
 }
