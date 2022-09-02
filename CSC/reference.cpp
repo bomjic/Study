@@ -12,8 +12,8 @@ printf("test\n");
 int* p = &x;
 int* pr = &rx;
 
-printf ("x rx p pr \n");
-printf ("%d %d %p %p\n",x,rx,p,pr);
+printf ("x\trx\tp\tpr\n");
+printf ("%d\t%d\t%p\t%p\n",x,rx,p,pr);
 return 0;
 }
 
