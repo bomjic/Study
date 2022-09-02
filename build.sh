@@ -1,2 +1,5 @@
 cd CSC;
-make
+make clean;
+make pointers;
+make reference;
+
